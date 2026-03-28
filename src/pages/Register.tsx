@@ -1,24 +1,37 @@
-import { ArrowRight, Lock, Mail, Phone, Shield, User } from "lucide-react";
+import {
+  ArrowRight,
+  Diamond,
+  Lock,
+  Mail,
+  Phone,
+  Shield,
+  User,
+} from "lucide-react";
+import { Button } from "../components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardTitle,
 } from "../components/ui/card";
+import { Checkbox } from "../components/ui/checkbox";
 import { Field, FieldLabel } from "../components/ui/field";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
 } from "../components/ui/input-group";
-import { Checkbox } from "../components/ui/checkbox";
-import { Button } from "../components/ui/button";
 
 const Register = () => {
   return (
     <div className="flex flex-col gap-7 justify-center mb-10 items-center">
       <div className="flex flex-col gap-3 items-center">
-        <h1 className="text-primary text-2xl text-center font-bold">Work</h1>
+        <div className="flex gap-2 mt-10">
+          <div className="bg-primary w-8 h-8 flex justify-center items-center rounded-md">
+            <Diamond className="text-white !w-5 !h-5" />
+          </div>
+          <h1 className="text-primary text-2xl text-center font-bold">Work</h1>
+        </div>
 
         <div className="flex flex-col gap-3">
           <h1 className="text-3xl font-bold text-center">Rejoignez l'élite</h1>

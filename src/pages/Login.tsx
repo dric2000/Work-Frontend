@@ -1,4 +1,4 @@
-import { ArrowRight, EyeOffIcon, Mail } from "lucide-react";
+import { ArrowRight, Diamond, EyeOffIcon, Mail } from "lucide-react";
 import { Button } from "../components/ui/button";
 import {
   Card,
@@ -17,7 +17,10 @@ import {
 const Login = () => {
   return (
     <div className="flex flex-col gap-7 justify-center h-screen items-center">
-      <div className="flex flex-col gap-3 items-center">
+      <div className="flex gap-2 mt-10">
+        <div className="bg-primary w-8 h-8 flex justify-center items-center rounded-md">
+          <Diamond className="text-white !w-5 !h-5" />
+        </div>
         <h1 className="text-primary text-2xl text-center font-bold">Work</h1>
       </div>
 
