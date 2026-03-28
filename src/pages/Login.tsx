@@ -63,7 +63,7 @@ const Login = () => {
             </div>
 
             <Button className="p-5">
-              Créer mon compte <ArrowRight />{" "}
+              Se connecter <ArrowRight />{" "}
             </Button>
 
             <p className="text-center">

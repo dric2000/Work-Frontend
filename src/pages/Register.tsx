@@ -16,7 +16,7 @@ import { Button } from "../components/ui/button";
 
 const Register = () => {
   return (
-    <div className="flex flex-col gap-7 justify-center h-screen items-center">
+    <div className="flex flex-col gap-7 justify-center items-center">
       <div className="flex flex-col gap-3 items-center">
         <h1 className="text-primary text-2xl text-center font-bold">Work</h1>
 
