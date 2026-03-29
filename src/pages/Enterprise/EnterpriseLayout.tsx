@@ -53,7 +53,7 @@ const items = [
   },
   {
     title: "Tâches",
-    url: "/douanes/entrepotindustriel/bonDeSortie",
+    url: "/Enterprise/Tasks",
     icon: BookCheck,
   },
   {

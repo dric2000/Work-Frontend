@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import CreateEnterprise from "./pages/Enterprise/CreateEnterprise";
 import Dashboard from "./pages/Enterprise/Dashboard";
+import Employees from "./pages/Enterprise/Employees";
 import EnterpriseLayout from "./pages/Enterprise/EnterpriseLayout";
+import Tasks from "./pages/Enterprise/Tasks";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Employees from "./pages/Enterprise/Employees";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="enterprise" element={<EnterpriseLayout />}>
           <Route path="" element={<Dashboard />} />
           <Route path="employees" element={<Employees />} />
+          <Route path="tasks" element={<Tasks />} />
         </Route>
       </Routes>
     </div>
