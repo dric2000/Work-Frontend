@@ -58,7 +58,7 @@ const items = [
   },
   {
     title: "Employés",
-    url: "/douanes/entrepotindustriel/registre",
+    url: "/Enterprise/Employees",
     icon: Users,
   },
   {
