@@ -88,8 +88,6 @@ export default function Layout() {
     "/douanes/entrepothydrocarbure/sorties": "Inventaire",
   };
 
-  const currentTitle = pageTitles[location.pathname] || "Tableau de bord";
-
   return (
     <SidebarProvider className="w-full h-full max-w-none!">
       <div className="flex h-screen w-full">
