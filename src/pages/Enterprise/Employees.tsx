@@ -30,8 +30,10 @@ import {
   TableHeader,
   TableRow,
 } from "../../components/ui/table";
+import { useNavigate } from "react-router-dom";
 
 const Employees = () => {
+  const navigate = useNavigate();
   const employees = [
     {
       id: 1,
@@ -113,7 +115,10 @@ const Employees = () => {
             <Button variant="outline" className="p-5">
               <Download /> Exporter CSV
             </Button>
-            <Button className="p-5 hover:bg-primary/80">
+            <Button
+                onClick={()=>navigate("../addEmployee")}
+              className="p-5 hover:bg-primary/80">
+
               <Plus /> Ajouter un employé
             </Button>
           </div>

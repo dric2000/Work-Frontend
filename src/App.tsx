@@ -6,6 +6,7 @@ import EnterpriseLayout from "./pages/Enterprise/EnterpriseLayout";
 import Tasks from "./pages/Enterprise/Tasks";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import CreateEmploye from "./pages/Enterprise/CreateEmploye";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="" element={<Dashboard />} />
           <Route path="employees" element={<Employees />} />
           <Route path="tasks" element={<Tasks />} />
+          <Route path="addEmployee" element={<CreateEmploye />} />
         </Route>
       </Routes>
     </div>
